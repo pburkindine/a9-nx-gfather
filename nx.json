@@ -1,0 +1,22 @@
+{
+  "npmScope": "a9-nx-gfather",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "a9-nx-gfather": {
+      "tags": []
+    },
+    "a9-nx-gfather-e2e": {
+      "tags": [],
+      "implicitDependencies": ["a9-nx-gfather"]
+    }
+  }
+}
