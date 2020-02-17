@@ -17,6 +17,9 @@
     "a9-nx-gfather-e2e": {
       "tags": [],
       "implicitDependencies": ["a9-nx-gfather"]
+    },
+    "shared": {
+      "tags": []
     }
   }
 }
